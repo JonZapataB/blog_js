@@ -10,7 +10,7 @@
         .important{
             background-color: aquamarine;
         }
-        i{
+        body #seccion_lista i{
             color:red
         }
     </style>
@@ -29,6 +29,25 @@
     </section>
     <section id="seccion_blog">
         <h1> BLOG <i class="fa-solid fa-blog"></i></h1>
+        <section id="blog_form_section">
+            <form action="" id="blog_form">
+                <fieldset>
+                    <legend>Crear un nuevo post</legend>
+                    <label for="titulo">Titulo</label>
+                    <input type="text" id="titulo" name="titulo">
+                    <br>
+                    <label for="contenido">Contenido</label>
+                    <textarea name="contenido" id="contenido" cols="30" rows="10" placeholder="escribe algo..."></textarea>
+                    <br><br>
+                    <button id="crear">Crear</button>
+                </fieldset>
+            </form>
+        </section>
+        <section id="blog_section">
+            
+        </section>
     </section>
+                    
+
 </body>
 </html>
