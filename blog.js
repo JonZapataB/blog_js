@@ -32,6 +32,22 @@ function crearPost(event){
     p.innerText = contenido;
     articulo.appendChild(p);
     document.getElementById("contenido").value = "";
-    document.getElementById("blog_section").appendChild(articulo);
+    
+    let basura = document.createElement("i");
+    basura.classList.add("fa-solid","fa-trash");
+    articulo.appendChild(basura);
+    articulo.addEventListener("click",clickImportant);
+    
+    
+    lista = document.getElementById("blog_section");
+    lista.appendChild(articulo);
     
 }
+
+function deletePost(element){
+    let parent = element.parentElement;
+    let articulo = parent.innerText;
+    if(confirm("Deseas eliminar: \n" + titulo)){
+        parent.remove();
+   }
+ }
