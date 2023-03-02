@@ -20,7 +20,7 @@ function guardarElemento(){
     document.getElementById("lista").appendChild(li);
     document.getElementById("input").value = "";
 }
-function clickImportant(event){
+function clickImportant(event){    //algo para el icono
     let element = event.target;
     if(element.classList.contains("fa-trash")){
         deleteParent(element);
@@ -28,7 +28,7 @@ function clickImportant(event){
     }
     toggleImportant(event.target);
 }
-function toggleImportant(element){
+function toggleImportant(element){        //para poner el color si es importante
     element.classList.toggle("important");
 }
 
