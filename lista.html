@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
     <title>LISTA</title>
     <link  rel ="stylesheet" href="blog.css">
 </head>
 <body>
     <section id="seccion_lista">
-        <h1>lista de la compra </h1>
+        <h1 id="titulocompra">lista de la compra <i class="fa-solid fa-cart-shopping"></i></h1>
         
         <input type="text" id="input">
         <button id="guardar">Guardar</button>
@@ -21,16 +24,16 @@
         <script src ="lista.js"> </script>
     </section>
     <section id="seccion_blog">
-        <h1> BLOG <i class="fa-solid fa-blog"></i></h1>
+        <h1 id="tituloblog"> BLOG <i class="fa-solid fa-blog"></i></h1>
         <section id="blog_form_section">
             <form action="" id="blog_form">
                 <fieldset>
                     <legend>Crear un nuevo post</legend>
                     <label for="titulo">Titulo</label>
                     <input type="text" id="titulo" name="titulo">
-                    <br>
+                    <br><br>
                     <label for="contenido">Contenido</label>
-                    <textarea name="contenido" id="contenido" cols="30" rows="10" placeholder="escribe algo..."></textarea>
+                    <textarea name="contenido" id="contenido" cols="80" rows="15" placeholder="escribe algo..."></textarea>
                     <br><br>
                 
                     <button id="crear" type="submit">Crear</button>

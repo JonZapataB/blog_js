@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-*{
-    box-sizing: border-box;
-    font-family: "fuente"; 
-    margin: 0;
-    padding: 0;
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#crear{
+    font-family: 'Nunito', sans-serif;
+}
+
+#titulo{
+    font-family: 'Nunito', sans-serif;
 }
 
 .important{
@@ -18,6 +22,42 @@
 .fa-blog{
     color:blue
 }
-body{
-    font-family:"fuente";
+.fa-cart-shopping{
+    color:rgb(0, 242, 24)
+}
+
+
+#titulocompra{
+    
+    font-size: 30px;
+}
+#seccion_blog{
+    margin-right: 25%;
+    text-align: center;
+}
+
+
+#tituloblog{
+    font-size:50px;
+    padding: 5px 5px;
+    border: 5px solid #0909ee;
+    border-radius: 20px;
+    max-width: 210px;
+
+}
+
+#seccion_lista{
+    float: right;
+}
+
+
+#lista{
+    border:1px solid#000;
+    border-radius: 20px;
+}
+article{
+    border: 1px solid#000;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
 }
