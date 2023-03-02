@@ -28,12 +28,14 @@ body{
 
 
 #titulocompra{
-    
-    font-size: 30px;
+    border: 5px solid rgb(0, 242, 24);
+    border-radius: 20px;
+    text-align: center;
 }
 #seccion_blog{
     margin-right: 25%;
     text-align: center;
+    
 }
 
 
@@ -48,6 +50,7 @@ body{
 
 #seccion_lista{
     float: right;
+    background-color: #e1dede;
 }
 
 
